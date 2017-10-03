@@ -1,0 +1,10 @@
+{
+  "name": "Select Fetch",
+  "version": "1.0",
+  "description": "Select Fetch is a simple browser extension for clicking selected text",
+  "manifest_version": 2,
+
+  "browser_action": {
+      "popup": "test.html"
+  }
+}
