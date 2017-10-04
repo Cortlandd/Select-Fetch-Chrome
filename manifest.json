@@ -3,6 +3,13 @@
   "version": "1.0",
   "description": "Select Fetch is a simple browser extension for clicking selected text",
   "manifest_version": 2,
+  "homepage_url": "https://github.com/Cortlandd/Select-Fetch-Chrome",
+  "permissions": [
+    "tabs"
+  ],
+  "background": {
+    "scripts": ["background.js", "script.js"]
+  },
 
   "browser_action": {
       "popup": "test.html"
